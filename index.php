@@ -10,6 +10,7 @@ $clientes = $sql->select("SELECT * FROM CLIENTES WHERE ID_CLI < 20");
 
  */ 
 
+$sql = new Sql();
 
 $cliente = new Usuario();
 
